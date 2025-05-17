@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ThorneModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d5afe79c3ec71e773b13061cf89ad344bfd3844")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed213209e238449adefd04008a87285b36564b82")]
 [assembly: System.Reflection.AssemblyProductAttribute("ThorneModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ThorneModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
