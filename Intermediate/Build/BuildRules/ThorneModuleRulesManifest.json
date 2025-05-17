@@ -1,0 +1,17 @@
+{
+	"SourceFiles": [
+		"D:\\PerforceProjects\\C++Projects\\Stephen\\Thorne\\Source\\Thorne\\Thorne.Build.cs",
+		"D:\\PerforceProjects\\C++Projects\\Stephen\\Thorne\\Plugins\\Developer\\RiderLink\\Source\\RD\\RD.Build.cs",
+		"D:\\PerforceProjects\\C++Projects\\Stephen\\Thorne\\Plugins\\Developer\\RiderLink\\Source\\RiderBlueprint\\RiderBlueprint.Build.cs",
+		"D:\\PerforceProjects\\C++Projects\\Stephen\\Thorne\\Plugins\\Developer\\RiderLink\\Source\\RiderDebuggerSupport\\RiderDebuggerSupport.Build.cs",
+		"D:\\PerforceProjects\\C++Projects\\Stephen\\Thorne\\Plugins\\Developer\\RiderLink\\Source\\RiderGameControl\\RiderGameControl.Build.cs",
+		"D:\\PerforceProjects\\C++Projects\\Stephen\\Thorne\\Plugins\\Developer\\RiderLink\\Source\\RiderLC\\RiderLC.Build.cs",
+		"D:\\PerforceProjects\\C++Projects\\Stephen\\Thorne\\Plugins\\Developer\\RiderLink\\Source\\RiderLink\\RiderLink.Build.cs",
+		"D:\\PerforceProjects\\C++Projects\\Stephen\\Thorne\\Plugins\\Developer\\RiderLink\\Source\\RiderLogging\\RiderLogging.Build.cs",
+		"D:\\PerforceProjects\\C++Projects\\Stephen\\Thorne\\Plugins\\Developer\\RiderLink\\Source\\RiderShaderInfo\\RiderShaderInfo.Build.cs",
+		"D:\\PerforceProjects\\C++Projects\\Stephen\\Thorne\\Plugins\\Inventory\\Source\\Inventory\\Inventory.Build.cs",
+		"D:\\PerforceProjects\\C++Projects\\Stephen\\Thorne\\Source\\Thorne.Target.cs",
+		"D:\\PerforceProjects\\C++Projects\\Stephen\\Thorne\\Source\\ThorneEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.3"
+}

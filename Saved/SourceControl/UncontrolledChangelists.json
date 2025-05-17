@@ -1,0 +1,33 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/PerforceProjects/C++Projects/Stephen/Thorne/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
+				"D:/PerforceProjects/C++Projects/Stephen/Thorne/Content/Blueprints/Character/BP_ThirdPersonCharacter.uasset",
+				"D:/PerforceProjects/C++Projects/Stephen/Thorne/Plugins/Inventory/Content/Player/BP_Inv_PlayerController.uasset",
+				"D:/PerforceProjects/C++Projects/Stephen/Thorne/Content/Blueprints/Framework/BP_BaseGameMode.uasset",
+				"D:/PerforceProjects/C++Projects/Stephen/Thorne/Plugins/Inventory/Content/Input/IMC_Default.uasset",
+				"D:/PerforceProjects/C++Projects/Stephen/Thorne/Plugins/Inventory/Content/Input/Actions/IA_Interact.uasset",
+				"D:/PerforceProjects/C++Projects/Stephen/Thorne/Content/Maps/ThirdPersonMap.umap",
+				"D:/PerforceProjects/C++Projects/Stephen/Thorne/Plugins/Inventory/Content/Widgets/HUD/WBP_Inv_HUDWidget.uasset",
+				"D:/PerforceProjects/C++Projects/Stephen/Thorne/Plugins/Inventory/Content/Items/BP_Inv_Potion_Small_Red.uasset",
+				"D:/PerforceProjects/C++Projects/Stephen/Thorne/Content/__ExternalActors__/Maps/ThirdPersonMap/E/UE/3S0X3H9OFK3NLMO7IZYYZC.uasset",
+				"D:/PerforceProjects/C++Projects/Stephen/Thorne/Plugins/Inventory/Content/Widgets/HUD/WBP_Inv_PickupMessage.uasset",
+				"D:/PerforceProjects/C++Projects/Stephen/Thorne/Plugins/Inventory/Content/Items/Potions/BP_Inv_Potion_Small_Red.uasset",
+				"D:/PerforceProjects/C++Projects/Stephen/Thorne/Content/Assets/InventoryAssets/Outline/M_Outline.uasset",
+				"D:/PerforceProjects/C++Projects/Stephen/Thorne/Plugins/Inventory/Content/Items/Components/BP_Inv_ItemComponent.uasset",
+				"D:/PerforceProjects/C++Projects/Stephen/Thorne/Plugins/Inventory/Content/Items/Components/BP_HighlightMesh.uasset",
+				"D:/PerforceProjects/C++Projects/Stephen/Thorne/Plugins/Inventory/Content/Widgets/Inventory/WBP_Inv_SpatialInventory.uasset",
+				"D:/PerforceProjects/C++Projects/Stephen/Thorne/Plugins/Inventory/Content/InventoryManagement/Components/BP_Inv_InventoryComponent.uasset",
+				"D:/PerforceProjects/C++Projects/Stephen/Thorne/Plugins/Inventory/Content/Input/Actions/IA_ToggleInventory.uasset",
+				"D:/PerforceProjects/C++Projects/Stephen/Thorne/Plugins/Inventory/Content/Widgets/HUD/WBP_InventoryClose.uasset",
+				"D:/PerforceProjects/C++Projects/Stephen/Thorne/Plugins/Inventory/Content/Widgets/Inventory/WBP_Inv_InventoryGrid.uasset",
+				"D:/PerforceProjects/C++Projects/Stephen/Thorne/Plugins/Inventory/Content/Widgets/GridSlots/WBP_Inv_GridSlot.uasset",
+				"D:/PerforceProjects/C++Projects/Stephen/Thorne/Content/Blueprints/BP_ThirdPersonCharacter.uasset"
+			]
+		}
+	]
+}

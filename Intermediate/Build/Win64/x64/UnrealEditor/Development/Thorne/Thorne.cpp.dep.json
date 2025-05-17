@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\perforceprojects\\c++projects\\stephen\\thorne\\source\\thorne\\thorne.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\gamedesign\\uesource_5_5\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\perforceprojects\\c++projects\\stephen\\thorne\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\thorne\\definitions.thorne.h",
+            "d:\\perforceprojects\\c++projects\\stephen\\thorne\\source\\thorne\\thorne.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
