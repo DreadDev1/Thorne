@@ -1,0 +1,37 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\perforceprojects\\c++projects\\stephen\\thorne\\plugins\\inventory\\intermediate\\build\\win64\\unrealeditor\\inc\\inventory\\uht\\inv_fastarray.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\gamedesign\\uesource_5_5\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\perforceprojects\\c++projects\\stephen\\thorne\\plugins\\inventory\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\inventory\\definitions.inventory.h",
+            "d:\\perforceprojects\\c++projects\\stephen\\thorne\\plugins\\inventory\\source\\inventory\\public\\inventorymanagement\\fastarray\\inv_fastarray.h",
+            "c:\\gamedesign\\uesource_5_5\\engine\\source\\runtime\\net\\core\\classes\\net\\serialization\\fastarrayserializer.h",
+            "c:\\gamedesign\\uesource_5_5\\engine\\source\\runtime\\net\\core\\public\\net\\core\\misc\\guidreferences.h",
+            "c:\\gamedesign\\uesource_5_5\\engine\\source\\runtime\\net\\core\\public\\net\\core\\pushmodel\\pushmodel.h",
+            "c:\\gamedesign\\uesource_5_5\\engine\\source\\runtime\\net\\core\\public\\net\\core\\netcoremodule.h",
+            "c:\\gamedesign\\uesource_5_5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\netcore\\uht\\fastarrayserializer.generated.h",
+            "d:\\perforceprojects\\c++projects\\stephen\\thorne\\plugins\\inventory\\intermediate\\build\\win64\\unrealeditor\\inc\\inventory\\uht\\inv_fastarray.generated.h",
+            "c:\\gamedesign\\uesource_5_5\\engine\\source\\runtime\\net\\core\\classes\\net\\serialization\\fastarrayserializerimplementation.h",
+            "c:\\gamedesign\\uesource_5_5\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\replicationsystem\\fastarrayreplicationfragment.h",
+            "c:\\gamedesign\\uesource_5_5\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\replicationsystem\\replicationfragment.h",
+            "c:\\gamedesign\\uesource_5_5\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\replicationsystem\\private\\fastarrayreplicationfragmentinternal.h",
+            "c:\\gamedesign\\uesource_5_5\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\core\\irisprofiler.h",
+            "c:\\gamedesign\\uesource_5_5\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\replicationstate\\irisfastarrayserializer.h",
+            "c:\\gamedesign\\uesource_5_5\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\replicationstate\\replicationstatefwd.h",
+            "c:\\gamedesign\\uesource_5_5\\engine\\source\\runtime\\net\\core\\public\\net\\core\\nethandle\\nethandle.h",
+            "c:\\gamedesign\\uesource_5_5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\iriscore\\uht\\irisfastarrayserializer.generated.h",
+            "c:\\gamedesign\\uesource_5_5\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\replicationstate\\private\\irisfastarrayserializerinternal.h",
+            "c:\\gamedesign\\uesource_5_5\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\replicationstate\\propertyreplicationstate.h",
+            "c:\\gamedesign\\uesource_5_5\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\replicationstate\\replicationstatedescriptor.h",
+            "c:\\gamedesign\\uesource_5_5\\engine\\source\\runtime\\net\\core\\public\\net\\core\\trace\\netdebugname.h",
+            "c:\\gamedesign\\uesource_5_5\\engine\\source\\runtime\\net\\core\\public\\net\\core\\netbitarray.h",
+            "c:\\gamedesign\\uesource_5_5\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\replicationstate\\replicationstateutil.h",
+            "c:\\gamedesign\\uesource_5_5\\engine\\source\\runtime\\net\\core\\public\\net\\core\\nethandle\\nethandlemanager.h",
+            "c:\\gamedesign\\uesource_5_5\\engine\\source\\runtime\\net\\core\\public\\net\\core\\dirtynetobjecttracker\\globaldirtynetobjecttracker.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

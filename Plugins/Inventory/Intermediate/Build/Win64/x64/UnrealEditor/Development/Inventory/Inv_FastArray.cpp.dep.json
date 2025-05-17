@@ -1,0 +1,24 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\perforceprojects\\c++projects\\stephen\\thorne\\plugins\\inventory\\source\\inventory\\private\\inventorymanagement\\fastarray\\inv_fastarray.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\gamedesign\\uesource_5_5\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\perforceprojects\\c++projects\\stephen\\thorne\\plugins\\inventory\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\inventory\\definitions.inventory.h",
+            "d:\\perforceprojects\\c++projects\\stephen\\thorne\\plugins\\inventory\\source\\inventory\\public\\inventorymanagement\\fastarray\\inv_fastarray.h",
+            "c:\\gamedesign\\uesource_5_5\\engine\\source\\runtime\\net\\core\\classes\\net\\serialization\\fastarrayserializer.h",
+            "c:\\gamedesign\\uesource_5_5\\engine\\source\\runtime\\net\\core\\public\\net\\core\\misc\\guidreferences.h",
+            "c:\\gamedesign\\uesource_5_5\\engine\\source\\runtime\\net\\core\\public\\net\\core\\pushmodel\\pushmodel.h",
+            "c:\\gamedesign\\uesource_5_5\\engine\\source\\runtime\\net\\core\\public\\net\\core\\netcoremodule.h",
+            "c:\\gamedesign\\uesource_5_5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\netcore\\uht\\fastarrayserializer.generated.h",
+            "d:\\perforceprojects\\c++projects\\stephen\\thorne\\plugins\\inventory\\intermediate\\build\\win64\\unrealeditor\\inc\\inventory\\uht\\inv_fastarray.generated.h",
+            "d:\\perforceprojects\\c++projects\\stephen\\thorne\\plugins\\inventory\\source\\inventory\\public\\inventorymanagement\\components\\inv_inventorycomponent.h",
+            "d:\\perforceprojects\\c++projects\\stephen\\thorne\\plugins\\inventory\\intermediate\\build\\win64\\unrealeditor\\inc\\inventory\\uht\\inv_inventorycomponent.generated.h",
+            "d:\\perforceprojects\\c++projects\\stephen\\thorne\\plugins\\inventory\\source\\inventory\\public\\items\\inv_inventoryitem.h",
+            "d:\\perforceprojects\\c++projects\\stephen\\thorne\\plugins\\inventory\\intermediate\\build\\win64\\unrealeditor\\inc\\inventory\\uht\\inv_inventoryitem.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

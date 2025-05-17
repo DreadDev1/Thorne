@@ -8,5 +8,10 @@
 /NODEFAULTLIB
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
 "D:\PerforceProjects\C++Projects\Stephen\Thorne\Plugins\Inventory\Intermediate\Build\Win64\x64\UnrealEditor\Development\Inventory\Module.Inventory.cpp.obj"
+"D:\PerforceProjects\C++Projects\Stephen\Thorne\Plugins\Inventory\Intermediate\Build\Win64\x64\UnrealEditor\Development\Inventory\Inv_FastArray.cpp.obj"
+"D:\PerforceProjects\C++Projects\Stephen\Thorne\Plugins\Inventory\Intermediate\Build\Win64\x64\UnrealEditor\Development\Inventory\Inventory.init.gen.cpp.obj"
+"D:\PerforceProjects\C++Projects\Stephen\Thorne\Plugins\Inventory\Intermediate\Build\Win64\x64\UnrealEditor\Development\Inventory\Inv_FastArray.gen.cpp.obj"
+"D:\PerforceProjects\C++Projects\Stephen\Thorne\Plugins\Inventory\Intermediate\Build\Win64\x64\UnrealEditor\Development\Inventory\Inv_InventoryComponent.gen.cpp.obj"
+"D:\PerforceProjects\C++Projects\Stephen\Thorne\Plugins\Inventory\Intermediate\Build\Win64\x64\UnrealEditor\Development\Inventory\Inv_InventoryItem.gen.cpp.obj"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
 /OUT:"D:\PerforceProjects\C++Projects\Stephen\Thorne\Plugins\Inventory\Intermediate\Build\Win64\x64\UnrealEditor\Development\Inventory\UnrealEditor-Inventory.lib"
