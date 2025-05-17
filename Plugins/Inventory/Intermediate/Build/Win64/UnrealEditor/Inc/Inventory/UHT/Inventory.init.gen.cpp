@@ -8,6 +8,7 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeInventory_init() {}
 	INVENTORY_API UFunction* Z_Construct_UDelegateFunction_Inventory_InventoryItemChange__DelegateSignature();
+	INVENTORY_API UFunction* Z_Construct_UDelegateFunction_Inventory_NoRoomInInventory__DelegateSignature();
 	static FPackageRegistrationInfo Z_Registration_Info_UPackage__Script_Inventory;
 	FORCENOINLINE UPackage* Z_Construct_UPackage__Script_Inventory()
 	{
@@ -15,19 +16,20 @@ void EmptyLinkFunctionForGeneratedCodeInventory_init() {}
 		{
 			static UObject* (*const SingletonFuncArray[])() = {
 				(UObject* (*)())Z_Construct_UDelegateFunction_Inventory_InventoryItemChange__DelegateSignature,
+				(UObject* (*)())Z_Construct_UDelegateFunction_Inventory_NoRoomInInventory__DelegateSignature,
 			};
 			static const UECodeGen_Private::FPackageParams PackageParams = {
 				"/Script/Inventory",
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x1200EEDE,
-				0x66B433C5,
+				0xBF18B8F2,
+				0x5078098C,
 				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_Inventory.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_Inventory.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_Inventory(Z_Construct_UPackage__Script_Inventory, TEXT("/Script/Inventory"), Z_Registration_Info_UPackage__Script_Inventory, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x1200EEDE, 0x66B433C5));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_Inventory(Z_Construct_UPackage__Script_Inventory, TEXT("/Script/Inventory"), Z_Registration_Info_UPackage__Script_Inventory, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xBF18B8F2, 0x5078098C));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

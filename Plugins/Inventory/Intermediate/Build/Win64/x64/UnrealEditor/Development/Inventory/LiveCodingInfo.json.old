@@ -2,17 +2,13 @@
 	"RemapUnityFiles": 
 	{
 		"Module.Inventory.cpp.obj": [
-			"Inventory.init.gen.cpp.obj",
-			"Inv_FastArray.gen.cpp.obj",
 			"Inv_GridSlot.gen.cpp.obj",
 			"Inv_GridTypes.gen.cpp.obj",
 			"Inv_Highlightable.gen.cpp.obj",
 			"Inv_HighlightableStaticMesh.gen.cpp.obj",
 			"Inv_HUDWidget.gen.cpp.obj",
 			"Inv_InventoryBase.gen.cpp.obj",
-			"Inv_InventoryComponent.gen.cpp.obj",
 			"Inv_InventoryGrid.gen.cpp.obj",
-			"Inv_InventoryItem.gen.cpp.obj",
 			"Inv_ItemComponent.gen.cpp.obj",
 			"Inv_PlayerController.gen.cpp.obj",
 			"Inv_SpatialInventory.gen.cpp.obj",
@@ -22,7 +18,6 @@
 			"Inv_HighlightableStaticMesh.cpp.obj",
 			"Inventory.cpp.obj",
 			"Inv_InventoryComponent.cpp.obj",
-			"Inv_FastArray.cpp.obj",
 			"Inv_ItemComponent.cpp.obj",
 			"Inv_InventoryItem.cpp.obj",
 			"Inv_PlayerController.cpp.obj",
@@ -32,7 +27,12 @@
 			"Inv_InventoryBase.cpp.obj",
 			"Inv_InventoryGrid.cpp.obj",
 			"Inv_SpatialInventory.cpp.obj",
-			"Inv_WidgetUtils.cpp.obj"
+			"Inv_WidgetUtils.cpp.obj",
+			"Inventory.init.gen.cpp.obj",
+			"Inv_FastArray.gen.cpp.obj",
+			"Inv_InventoryComponent.gen.cpp.obj",
+			"Inv_InventoryItem.gen.cpp.obj",
+			"Inv_FastArray.cpp.obj"
 		]
 	}
 }

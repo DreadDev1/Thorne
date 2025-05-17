@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\perforceprojects\\c++projects\\stephen\\thorne\\source\\thorne\\private\\framework\\thornegamemode.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\gamedesign\\uesource_5_5\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.nonoptimized.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\perforceprojects\\c++projects\\stephen\\thorne\\intermediate\\build\\win64\\x64\\unrealeditor\\debuggame\\thorne\\definitions.thorne.h",
+            "d:\\perforceprojects\\c++projects\\stephen\\thorne\\source\\thorne\\public\\framework\\thornegamemode.h",
+            "c:\\gamedesign\\uesource_5_5\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\gamedesign\\uesource_5_5\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\gamedesign\\uesource_5_5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "c:\\gamedesign\\uesource_5_5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "d:\\perforceprojects\\c++projects\\stephen\\thorne\\intermediate\\build\\win64\\unrealeditor\\inc\\thorne\\uht\\thornegamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

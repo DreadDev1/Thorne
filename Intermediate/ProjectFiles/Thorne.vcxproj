@@ -1817,6 +1817,7 @@
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\InventoryManagement\FastArray\Inv_FastArray.cpp" />
+    <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\InventoryManagement\Utils\Inv_InventoryStatics.cpp" />
     <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\Items\Components\Inv_ItemComponent.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories_6)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles_8)</ForcedIncludeFiles>
@@ -1838,6 +1839,7 @@
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles_8)</ForcedIncludeFiles>
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
     </ClCompile>
+    <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\Widgets\HUD\Inv_InfoMessage.cpp" />
     <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\Widgets\Inventory\GridSlots\Inv_GridSlot.cpp" />
     <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\Widgets\Inventory\InventoryBase\Inv_InventoryBase.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories_6)</AdditionalIncludeDirectories>
@@ -1944,7 +1946,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Plugins\Inventory\Source\Inventory\Public\InventoryManagement\FastArray\Inv_FastArray.h" />
+    <ClInclude Include="..\..\Plugins\Inventory\Source\Inventory\Public\InventoryManagement\Utils\Inv_InventoryStatics.h" />
     <ClInclude Include="..\..\Plugins\Inventory\Source\Inventory\Public\Items\Inv_InventoryItem.h" />
+    <ClInclude Include="..\..\Plugins\Inventory\Source\Inventory\Public\Widgets\HUD\Inv_InfoMessage.h" />
     <ClInclude Include="..\..\Plugins\Inventory\Source\Inventory\Public\Widgets\Inventory\GridSlots\Inv_GridSlot.h" />
     <ClInclude Include="..\..\Plugins\Inventory\Source\Inventory\Public\Widgets\Utils\Inv_WidgetUtils.h" />
   </ItemGroup>

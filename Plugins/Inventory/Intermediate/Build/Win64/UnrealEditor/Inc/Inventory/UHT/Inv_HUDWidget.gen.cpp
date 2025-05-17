@@ -12,6 +12,7 @@ void EmptyLinkFunctionForGeneratedCodeInv_HUDWidget() {}
 // Begin Cross Module References
 INVENTORY_API UClass* Z_Construct_UClass_UInv_HUDWidget();
 INVENTORY_API UClass* Z_Construct_UClass_UInv_HUDWidget_NoRegister();
+INVENTORY_API UClass* Z_Construct_UClass_UInv_InfoMessage_NoRegister();
 UMG_API UClass* Z_Construct_UClass_UUserWidget();
 UPackage* Z_Construct_UPackage__Script_Inventory();
 // End Cross Module References
@@ -44,6 +45,35 @@ UFunction* Z_Construct_UFunction_UInv_HUDWidget_HidePickupMessage()
 	return ReturnFunction;
 }
 // End Class UInv_HUDWidget Function HidePickupMessage
+
+// Begin Class UInv_HUDWidget Function OnNoRoom
+struct Z_Construct_UFunction_UInv_HUDWidget_OnNoRoom_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/Widgets/HUD/Inv_HUDWidget.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UInv_HUDWidget_OnNoRoom_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UInv_HUDWidget, nullptr, "OnNoRoom", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00040401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UInv_HUDWidget_OnNoRoom_Statics::Function_MetaDataParams), Z_Construct_UFunction_UInv_HUDWidget_OnNoRoom_Statics::Function_MetaDataParams) };
+UFunction* Z_Construct_UFunction_UInv_HUDWidget_OnNoRoom()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UInv_HUDWidget_OnNoRoom_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(UInv_HUDWidget::execOnNoRoom)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->OnNoRoom();
+	P_NATIVE_END;
+}
+// End Class UInv_HUDWidget Function OnNoRoom
 
 // Begin Class UInv_HUDWidget Function ShowPickupMessage
 struct Inv_HUDWidget_eventShowPickupMessage_Parms
@@ -94,6 +124,11 @@ UFunction* Z_Construct_UFunction_UInv_HUDWidget_ShowPickupMessage()
 // Begin Class UInv_HUDWidget
 void UInv_HUDWidget::StaticRegisterNativesUInv_HUDWidget()
 {
+	UClass* Class = UInv_HUDWidget::StaticClass();
+	static const FNameNativePtrPair Funcs[] = {
+		{ "OnNoRoom", &UInv_HUDWidget::execOnNoRoom },
+	};
+	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 }
 IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(UInv_HUDWidget);
 UClass* Z_Construct_UClass_UInv_HUDWidget_NoRegister()
@@ -104,16 +139,21 @@ struct Z_Construct_UClass_UInv_HUDWidget_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/**\n * \n */" },
-#endif
 		{ "IncludePath", "Widgets/HUD/Inv_HUDWidget.h" },
 		{ "ModuleRelativePath", "Public/Widgets/HUD/Inv_HUDWidget.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_InfoMessage_MetaData[] = {
+		{ "BindWidget", "" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/Widgets/HUD/Inv_HUDWidget.h" },
+	};
 #endif // WITH_METADATA
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_InfoMessage;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
 		{ &Z_Construct_UFunction_UInv_HUDWidget_HidePickupMessage, "HidePickupMessage" }, // 4028960457
+		{ &Z_Construct_UFunction_UInv_HUDWidget_OnNoRoom, "OnNoRoom" }, // 3753569712
 		{ &Z_Construct_UFunction_UInv_HUDWidget_ShowPickupMessage, "ShowPickupMessage" }, // 3579743864
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
@@ -122,6 +162,11 @@ struct Z_Construct_UClass_UInv_HUDWidget_Statics
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UInv_HUDWidget_Statics::NewProp_InfoMessage = { "InfoMessage", nullptr, (EPropertyFlags)0x0144000000080008, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UInv_HUDWidget, InfoMessage), Z_Construct_UClass_UInv_InfoMessage_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_InfoMessage_MetaData), NewProp_InfoMessage_MetaData) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UInv_HUDWidget_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UInv_HUDWidget_Statics::NewProp_InfoMessage,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UInv_HUDWidget_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_UInv_HUDWidget_Statics::DependentSingletons[])() = {
 	(UObject* (*)())Z_Construct_UClass_UUserWidget,
 	(UObject* (*)())Z_Construct_UPackage__Script_Inventory,
@@ -133,11 +178,11 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_UInv_HUDWidget_Statics:
 	&StaticCppClassTypeInfo,
 	DependentSingletons,
 	FuncInfo,
-	nullptr,
+	Z_Construct_UClass_UInv_HUDWidget_Statics::PropPointers,
 	nullptr,
 	UE_ARRAY_COUNT(DependentSingletons),
 	UE_ARRAY_COUNT(FuncInfo),
-	0,
+	UE_ARRAY_COUNT(Z_Construct_UClass_UInv_HUDWidget_Statics::PropPointers),
 	0,
 	0x00B010A0u,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UInv_HUDWidget_Statics::Class_MetaDataParams), Z_Construct_UClass_UInv_HUDWidget_Statics::Class_MetaDataParams)
@@ -163,10 +208,10 @@ UInv_HUDWidget::~UInv_HUDWidget() {}
 struct Z_CompiledInDeferFile_FID_Thorne_Plugins_Inventory_Source_Inventory_Public_Widgets_HUD_Inv_HUDWidget_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UInv_HUDWidget, UInv_HUDWidget::StaticClass, TEXT("UInv_HUDWidget"), &Z_Registration_Info_UClass_UInv_HUDWidget, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UInv_HUDWidget), 3404169322U) },
+		{ Z_Construct_UClass_UInv_HUDWidget, UInv_HUDWidget::StaticClass, TEXT("UInv_HUDWidget"), &Z_Registration_Info_UClass_UInv_HUDWidget, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UInv_HUDWidget), 2792231357U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Thorne_Plugins_Inventory_Source_Inventory_Public_Widgets_HUD_Inv_HUDWidget_h_2080219935(TEXT("/Script/Inventory"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Thorne_Plugins_Inventory_Source_Inventory_Public_Widgets_HUD_Inv_HUDWidget_h_72402168(TEXT("/Script/Inventory"),
 	Z_CompiledInDeferFile_FID_Thorne_Plugins_Inventory_Source_Inventory_Public_Widgets_HUD_Inv_HUDWidget_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Thorne_Plugins_Inventory_Source_Inventory_Public_Widgets_HUD_Inv_HUDWidget_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
