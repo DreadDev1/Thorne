@@ -4,6 +4,8 @@
 
 #include "Modules/ModuleManager.h"
 
+DECLARE_LOG_CATEGORY_EXTERN(InventoryLog, Log, All);
+
 class FInventoryModule : public IModuleInterface
 {
 public:
