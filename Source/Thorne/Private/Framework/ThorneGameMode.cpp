@@ -1,7 +1,7 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
-#include "ThorneGameMode.h"
-#include "ThorneCharacter.h"
+#include "Framework/ThorneGameMode.h"
+#include "Characters/ThorneCharacter.h"
 #include "UObject/ConstructorHelpers.h"
 
 AThorneGameMode::AThorneGameMode()
